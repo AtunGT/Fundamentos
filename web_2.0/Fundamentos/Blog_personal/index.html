@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi blog personal</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="Logo_up.jpg"
+            alt="programador"
+          />
+          <div class="logotype">
+            Mi Blog personal
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#experience">Acerca de mi</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Hola, soy <br />Arthur Smith Garcia Ruiz</h1>
+          <p class="profile-details">
+            Soy un estudiante de la universidad politecnica de chiapas actualmente cursando el primer cuatrimestre
+          </p>
+         
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="1700578137469.jpg"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <h2 class="experiences-title">Acerca de mi</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">Quien soy</div>
+            <div class="experience-description">
+              Soy un joven de 17 años actualmente estudiando 
+              la universidad, originario de San cristobal de las casas, y 
+              me gusta mucho la programción.
+            </div>
+          </div>
+          <div class="experience experience_left">
+            <div class="experience-date">Mis gustos</div>
+            <div class="experience-description">
+              Me gusta mucho ir al gimnasio 
+              ver peliculas de ciencia ficcion, y
+              mi color favorito es el verde.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experience">
+            <div class="experience-date">Metas</div>
+            <div class="experience-description">
+              Mi meta principal es concluir de manera exitosa la universidad.
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">Leer rapido</li>
+          <li class="skills-skill">Videojuegos</li>
+          <li class="skills-skill">Fuerza y resistencia</li>
+          <li class="skills-skill">Cocinar</li>
+          <li class="skills-skill">Conocimiento amplio de computadoras</li>
+          <li class="skills-skill">XD</li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
